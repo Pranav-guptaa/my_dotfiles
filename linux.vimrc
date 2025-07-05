@@ -24,6 +24,11 @@ let g:airline#extensions#tabline#enabled = 1
 set history=50
 
 " Clipboard 
+" For clipboard to work ensure following:
+" vim --version | grep clipboard
+" sudo apt install vim-gtk3 
+" Now, once text selected copy it using 'y' and paste it using 'p'
+" https://youtu.be/_MgrjgQqDcE
 set clipboard=unnamedplus
 
 " Display
@@ -72,4 +77,3 @@ set expandtab
 :set softtabstop=4
 :set mouse=a
 :inoremap kj <esc>
-
